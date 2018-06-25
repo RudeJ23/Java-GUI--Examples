@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Tab 1" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p10rude.Tab1Controller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="lbl1GrossPay" focusTraversable="false" layoutX="176.0" layoutY="256.0" text="0.00" />
+            <TextField fx:id="txtFirst" layoutX="122.0" layoutY="72.0" />
+            <TextField fx:id="txtLast" layoutX="122.0" layoutY="107.0" />
+            <TextField fx:id="txtHours" layoutX="122.0" layoutY="143.0" />
+            <TextField fx:id="txtPayrate" layoutX="122.0" layoutY="175.0" />
+            <Button fx:id="btnCalculate" defaultButton="true" layoutX="122.0" layoutY="219.0" mnemonicParsing="false" onAction="#calculateGrossPay" text="Calculate" />
+            <Label focusTraversable="false" layoutX="109.0" layoutY="256.0" text="Gross Pay: $" />
+            <Label focusTraversable="false" layoutX="20.0" layoutY="179.0" text="Payrate (ex: 10.95)" />
+            <Label focusTraversable="false" layoutX="27.0" layoutY="147.0" text="Hours (ex: 27.5)" />
+            <Label focusTraversable="false" layoutX="53.0" layoutY="111.0" text="Last Name:" />
+            <Label focusTraversable="false" layoutX="52.0" layoutY="76.0" text="First Name:" />
+            <Label layoutX="54.0" layoutY="299.0" text="*After calculating, move to Tab 2" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
