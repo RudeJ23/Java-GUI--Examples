@@ -1,0 +1,20 @@
+.background {
+-fx-background-color: #d4effc;
+}
+.normal-label {
+-fx-font-size: 14pt;
+-fx-font-family: "Segoe UI Semibold";
+-fx-text-fill: black;
+-fx-opacity: 0.6;
+}
+.label-bright {
+-fx-font-size: 14pt;
+-fx-font-family: "Segoe UI Semibold";
+-fx-text-fill: #20CE11;
+-fx-opacity: 1;
+}
+.custom-button {
+    -fx-font: 14pt "Serif";
+    -fx-padding: 10;
+    -fx-background-color: #8fd9fc;
+}
