@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="P4LayoutsRude.jnlp">
+  <information>
+    <title>P4LayoutsRude</title>
+    <vendor>Joe</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="P4LayoutsRude.jar" size="3277" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="P4LayoutsRude" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="P4Layouts.P4Layouts"  name="P4LayoutsRude" />
+  <update check="always"/>
+</jnlp>
