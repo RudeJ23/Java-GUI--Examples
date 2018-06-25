@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MajorProjectRude.jnlp">
+  <information>
+    <title>MajorProjectRude</title>
+    <vendor>Joe</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-splash:src/majorprojectrude/1.png "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MajorProjectRude.jar" size="145306" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MajorProjectRude" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="majorprojectrude.MajorProjectRude"  name="MajorProjectRude" />
+  <update check="always"/>
+</jnlp>
