@@ -28,7 +28,7 @@ public class ProductQueries {
     
     public ProductQueries() {
         try {
-            con = DriverManager.getConnection("jdbc:mysql://puff:3306/rudejo_myDB","rudejo","gc2804kkmysql");
+            con = DriverManager.getConnection("jdbc:mysql://puff:3306/rudejo_myDB","rudejo","********");
             
             selectAllProducts = con.prepareStatement("SELECT * FROM rudejo_Product");
             
