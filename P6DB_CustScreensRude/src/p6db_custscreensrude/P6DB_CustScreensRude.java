@@ -40,11 +40,11 @@ public class P6DB_CustScreensRude extends Application {
         /*
         Class.forName("com.mysql.jdbc.Driver");       
         //#OFF_CAMPUS connection:
-        //Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rudejo_myDB","rudejo","gc2804kkmysql");
+        //Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rudejo_myDB","rudejo","********");
             //PreparedStatement st = con.prepareStatement("select * from rudejo_Customer");
 
         //#ON_CAMPUS connection:
-        Connection con = DriverManager.getConnection("jdbc:mysql://puff:3306/rudejo_myDB","rudejo","gc2804kkmysql");
+        Connection con = DriverManager.getConnection("jdbc:mysql://puff:3306/rudejo_myDB","rudejo","********");
             PreparedStatement st = con.prepareStatement("select * from rudejo_Customer");
         
         ResultSet rs = st.executeQuery();
