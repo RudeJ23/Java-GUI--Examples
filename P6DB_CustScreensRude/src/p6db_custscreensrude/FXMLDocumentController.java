@@ -433,11 +433,11 @@ public class FXMLDocumentController implements Initializable {
        try {
             Class.forName("com.mysql.jdbc.Driver");
             //#OFF_CAMPUS connection:
-            //con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rudejo_myDB","rudejo","gc2804kkmysql");
+            //con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rudejo_myDB","rudejo","********");
             //st = con.prepareStatement("select * from rudejo_Customer");
             
             //#ON_CAMPUS connection:
-            con = DriverManager.getConnection("jdbc:mysql://puff:3306/rudejo_myDB","rudejo","gc2804kkmysql");
+            con = DriverManager.getConnection("jdbc:mysql://puff:3306/rudejo_myDB","rudejo","********");
             st = con.prepareStatement("select * from rudejo_Customer;");
             rs = st.executeQuery();         
             
